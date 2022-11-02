@@ -1,0 +1,6 @@
+.img-slot {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
