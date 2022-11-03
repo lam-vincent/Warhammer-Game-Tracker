@@ -1,15 +1,14 @@
 import Slot from "./Slot";
+import { useState, useEffect } from "react"
 import "../styles/Board.css";
 
 function Board() {
-    const Colors = ["var(--muted-yellow)", "var(--muted-red)", "var(--muted-blue)", "var(--muted-green)", "var(--muted-orange)", "var(--muted-purple)", "var(--muted-black)"];
-
     return (
         <div className="card">
             <div className="main">
                 <div className="container">
-                    {Colors.map((color, key) => (
-                        <Slot Color={color} Colors={Colors} key={key} />
+                    {[...Array(18)].map((_, key) => (
+                        <Slot key={key} index={key} />
                     ))}
                 </div>
             </div>

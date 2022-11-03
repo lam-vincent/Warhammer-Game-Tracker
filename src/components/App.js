@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Header from "./Header";
 import logo from "../assets/Warhammerlogo.png";
 import Footer from "./Footer";
