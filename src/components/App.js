@@ -1,9 +1,8 @@
 import { useState } from "react";
 import Header from "./Header";
 import logo from "../assets/Warhammerlogo.png";
-import Form from "./Form";
 import Footer from "./Footer";
-import Rooms from "./Rooms";
+import Board from "./Board";
 import "../styles/Layout.css";
 
 function App() {
@@ -15,8 +14,7 @@ function App() {
         <h1 className="title">Warhammer Game Tracker</h1>
       </Header>
       <div className="layout-inner">
-        <Form form={form} updateForm={updateForm} />
-        <Board form={form} updateForm={updateForm} />
+        <Board />
       </div>
       <Footer />
     </div>
