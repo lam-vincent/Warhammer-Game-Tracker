@@ -1,4 +1,6 @@
-https://cdn.discordapp.com/attachments/1030486645562167302/1037788651238727742/unknown.png
+# Warhammer Game Tracker
+
+![unknown](https://user-images.githubusercontent.com/62343240/199832285-288f13eb-8620-4b3e-a0de-56115dd9cbfb.png)
 
 # Getting Started with Create React App
 
