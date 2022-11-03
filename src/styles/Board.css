@@ -1,10 +1,11 @@
 .card {
-    width: 50%;
+    width: 27rem;
     height: 30rem;
     display: flex;
     background-color: var(--gray);
     border-radius: 1rem;
     padding: 2rem;
+    padding-bottom: 3rem;
     margin: 1rem;
 }
 
@@ -30,7 +31,7 @@
     font-size: initial;
     clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
     margin-bottom: calc(var(--m) - var(--s) * 0.2885);
-    background-color: green;
+    background-color: var(--muted-black);
 }
 
 .container::before {

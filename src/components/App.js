@@ -6,7 +6,6 @@ import Board from "./Board";
 import "../styles/Layout.css";
 
 function App() {
-  const [form, updateForm] = useState([]);
   return (
     <div>
       <Header>
