@@ -12,15 +12,12 @@
 .main {
     display: flex;
     --s: 100px;
-    /* size  */
     --m: 4px;
-    /* margin */
     --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px);
 }
 
 .container {
     font-size: 0;
-    /* disable white space between inline block element */
 }
 
 .container div {
