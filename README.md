@@ -1,3 +1,7 @@
+# Warhammer Game Tracker
+
+![unknown](https://user-images.githubusercontent.com/62343240/199832285-288f13eb-8620-4b3e-a0de-56115dd9cbfb.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
