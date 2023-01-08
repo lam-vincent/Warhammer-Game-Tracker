@@ -5,7 +5,7 @@ function Footer() {
         <footer className="footer">
             <div className="footer-elem">👷Contributors : </div>
             <div className="footer-elem">
-                Eyfeline TALA, Charles FAZI, Kevin TRAN & Vincent LAM
+                Audrey DAMIBA, Melissa LACHEB, Eyfeline TALA, Charles FAZI, Kevin TRAN & Vincent LAM
             </div>
         </footer>
     );
